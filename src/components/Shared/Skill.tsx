@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
-import {workDoneProps,SkilDataType, ServicesProps} from './../../constant'
 import "/node_modules/slick-carousel/slick/slick.css"; 
 import "/node_modules/slick-carousel/slick/slick-theme.css";
+import { ServicesProps, SkilDataType, workDoneProps } from '../../type';
 
 
 

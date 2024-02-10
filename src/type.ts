@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface VoidProps {
-    handleToggle:()=>void
+    handleToggle?:()=>void
 }
 export interface SocialAccountItem {
     name: string;

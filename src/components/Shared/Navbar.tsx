@@ -21,7 +21,7 @@ const Navbar = ({ handleToggle }: VoidProps) => {
             key={index}
             className="mb-4 group"
             onClick={() => {
-              { handleToggle ? handleToggle() :''}
+              handleToggle && handleToggle();
               changeActive(index);
             }}
           >
